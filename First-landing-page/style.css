@@ -1,0 +1,198 @@
+body{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+.body{
+            
+        background-image: url(images/m4.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(87, 85, 85);
+        background-blend-mode: multiply;
+           
+    }
+    .nav-bar{
+        height: 60px;
+        width: 68%;
+        /* background-color: antiquewhite; */
+    }
+    .nav-bar ul li{
+        display: inline;
+        padding: 10px;
+    }
+
+    .nav-bar ul{
+        padding: 20px;
+    }
+    .nav-bar ul li a button{
+        padding: 8px 15px;
+        border-radius: 20px;
+        border: 1px solid white;
+        color: white;
+        background-color:#9c780d;
+        transition: 1s background-color;
+    }
+    .nav-bar ul li a button:hover{
+        background-color:#332806;
+        
+    }
+    
+
+    
+.main{ 
+        height: 100vh;
+         width:320px;
+        background-color: rgb(42, 39, 39);
+        position: absolute;
+        left:70%;
+        background-image: url(images/biryani.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+    }
+              
+.img1{
+        height: 350px;
+        width: 350px;
+        position: absolute;
+        left:-70px;
+        top: 10px;
+        animation: test 20s linear infinite;}
+        @keyframes test{100%{transform: rotate(360deg);}
+    }
+       
+.img2{ 
+        left:100px; 
+        position: absolute;
+        top: 240px;
+        height: 280px;
+        width: 280px;
+        animation: rol 18s linear infinite;}
+        @keyframes rol{100%{transform: rotate(-360deg);}
+    }
+
+.img3{ 
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        left: 40px;
+        top:400px;
+        animation: test 20s linear infinite;}
+        @keyframes test{100%{transform: rotate(360deg);}
+    }
+     
+ .log{
+        position: absolute;
+        height:fit-content;
+        width: 30%;
+        margin:15% 20%;
+        
+        /* background-color: rgb(76, 148, 210); */
+    }
+        
+ h1{
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color:white;
+        text-shadow: 6px 6px 6px #9c780d;
+    }
+
+input{
+               
+        padding:12px;
+        width: 72%;
+        border-radius: 20px;
+        text-align: center;
+        margin:auto 10%;
+        border: 1px rgb(222, 218, 218) solid;
+        color: #9c780d;
+    }
+
+       
+.input-class{
+        margin-top: 15px;
+            }
+
+.link{
+        margin-top: 10px;
+        margin-left: 55%;
+        background-color: transparent;
+        border: none;
+
+        
+
+    }
+    .link a{
+        font-size: 15;
+        text-decoration: underline;
+        color: #9c780d;
+    }
+
+    .login{
+                 /* top:217px; */
+                 /* left:130px; */
+                 /* height: 30px; */
+                 /* width: 75px; */
+                display: flex;
+                justify-self: center;
+                padding: 10px 25px;
+                font-size: 15px;
+                color: white;
+                background-color: #9c780d;
+                border: white 1px solid;
+                border-radius: 20px;
+                margin-top: 20px;
+                transition: 1s background-color;
+            }
+    .login:hover{
+                background-color: #332806;
+    }
+
+        
+             
+        .table{position: absolute;
+              height: 40px;
+              width: 120px;
+              font-size: 12px;
+              color: white;
+              background-color: black;
+              border-radius: 20px;
+              border: none;
+              top:10px;
+              left:20px;
+              }
+        .Menu{position: absolute;
+              height: 40px;
+              width: 120px;
+              font-size: 12px;
+              color: white;
+              background-color: black;
+              border-radius: 20px;
+              border: none;
+              top:10px;
+              left:160px;
+              }
+         .us{position: absolute;
+              height: 40px;
+              width: 120px;
+              font-size: 12px;
+              color: white;
+              background-color: black;
+              border-radius: 20px;
+              border: none;
+              top:10px;
+              left:300px;
+              }
+         /* .log1{position: absolute;
+               border: 1px #9c780d solid; 
+              height: 400px;
+              width:320px;
+              top:130px;
+              left:310px;
+              border-radius: 50px;
+              background-color: transparent;
+              backdrop-filter: blur(5px);
+             }  */
